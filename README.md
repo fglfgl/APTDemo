@@ -223,6 +223,7 @@ TypeElement | 类或接口程序元素
 ExecutableElement | 类或接口的方法、构造方法或初始化程序（静态或实例），包括注解类型元素
 TypeParameterElement | 一般类、接口、方法或构造方法元素的泛型参数
 VariableElement | 一个字段、enum 常量、方法或构造方法参数、局部变量或异常参数
+
 还记得`Annotation`的`@target`吗，实际上上面的类就是`ElementType`下对应的类型：
 
 类 | 对应ElementType类型（作用域）
